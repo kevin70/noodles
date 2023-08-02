@@ -1,4 +1,4 @@
-FROM pandoc/latex
+FROM pandoc/extra
 LABEL maintainer="ZY - kzou227@qq.com"
 
 RUN apk --update add openssl wget unzip && rm -rf /var/cache/apk/* \
